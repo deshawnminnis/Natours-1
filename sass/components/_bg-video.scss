@@ -1,0 +1,17 @@
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    // Sets the object/element to cover the space of it's parent while clipping out , along with the height and width properties
+    object-fit: cover;
+  }
+}
